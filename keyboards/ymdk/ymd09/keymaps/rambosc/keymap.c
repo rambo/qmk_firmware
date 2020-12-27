@@ -121,8 +121,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * "ship combat" layer 2
     *
     * cycle layer back, mobiglass layer(hold), cycle layer forward
-    * xx,xx,xx
-    * remove pins, unlock target, xx
+    * cycle missiles back (bind),release missile locks (bind),cycle missiles fwd (bind)
+    * remove pins, unlock target, cycle radar range (bind)
     */
   [2] = LAYOUT(TO(1), KC_TRNS, TO(3),
                KC_COMMA, KC_DOT, KC_BSLASH,
@@ -132,6 +132,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * "XX" layer
     *
     * cycle layer back, mobiglass layer(hold), cycle layer forward
+    * zz (bind), zz (bind), cycle pitch ladder (bind)
+    * close all doors (bind), pid broadcast toggle (bind), zz (bind)
     */
   [3] = LAYOUT(TO(2), KC_TRNS, TO(4),
                KC_F3, KC_MINUS, KC_EQUAL,
