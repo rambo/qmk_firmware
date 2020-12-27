@@ -125,8 +125,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * remove pins, unlock target, xx
     */
   [2] = LAYOUT(TO(1), KC_TRNS, TO(3),
-               KC_F13, KC_F14, KC_F15,
-               KC_0, LSFT(KC_T), KC_F16),
+               KC_COMMA, KC_DOT, KC_BSLASH,
+               KC_0, LSFT(KC_T), KC_SCOLON),
 
    /**
     * "XX" layer
@@ -134,8 +134,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * cycle layer back, mobiglass layer(hold), cycle layer forward
     */
   [3] = LAYOUT(TO(2), KC_TRNS, TO(4),
-               KC_F17, KC_F18, KC_F19,
-               KC_F20, KC_F21, KC_F22),
+               KC_F3, KC_MINUS, KC_EQUAL,
+               LSFT(KC_F3), LSFT(KC_MINUS), LSFT(KC_EQUAL)),
 
    /**
     * "travel" layer
